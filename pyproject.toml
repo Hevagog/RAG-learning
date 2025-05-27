@@ -5,10 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "datasets>=3.6.0",
     "fastembed>=0.7.0",
+    "google-genai>=1.16.1",
     "ipykernel>=6.29.5",
+    "kagglehub>=0.3.12",
     "numpy>=2.2.6",
     "ollama>=0.4.8",
+    "pandas>=2.2.3",
+    "python-dotenv>=1.1.0",
     "qdrant-client>=1.14.2",
     "tqdm>=4.67.1",
 ]
